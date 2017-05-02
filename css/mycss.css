@@ -1,0 +1,237 @@
+/*公共样式*/
+body{
+    font-family: "Microsoft Yahei";
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+/*导航样式*/
+#nav {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 1px 8px rgba(50,50,50,0.7);
+}
+#nav .navbar-brand {
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+    font-size: 28px;
+    font-weight: 600;
+}
+#nav .navbar-nav{
+    margin-top: 0;
+}
+#nav .navbar-nav>li>a {
+    color: #666666;
+    height: 70px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav .navbar-nav>li>a:hover{
+    background-color: #999;
+}
+#nav .navbar-toggle .icon-bar {
+    background-color: #40d2b1;
+}
+#nav .navbar-toggle:hover {
+    background-color: #b4f0e3;
+}
+#nav .navbar-toggle{
+    margin-top:17px;
+}
+
+
+
+/*home部分*/
+#home{
+    background-image: url("../images/home-bg.jpg");
+    margin-top: 70px;
+    text-align: center;
+    background-size: cover ;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50,50,50,0.7);
+    padding: 40px 0;
+}
+#home .lvjing{
+    padding-bottom: 74px;
+}
+#home .lvjing h1{
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom:15px;
+
+}
+#home .lvjing h1 a{
+    color:white;
+}
+#home .lvjing  img{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+
+/*bbs部分*/
+#bbs{
+    margin: 30px 0;
+}
+#bbs h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+#bbs .col-md-4{
+    padding:30px 10px 30px 10px;
+    text-align: center;
+}
+#bbs a{
+    color: #000;
+    display:block;
+    text-decoration:none;
+}
+#bbs .col-md-4:hover{
+    background-color: #ccc;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+/*html5部分和bootstrap部分*/
+ #html5,#bootstrap{
+    padding:66px 0;
+    background: #F8F8F8;
+}
+ #bootstrap{
+     background-color:#fff;
+ }
+#html5 h2,#bootstrap h2{
+    padding-bottom: 9px;
+}
+#html5 h2 a,#bootstrap h2 a{
+    color:#333333;
+    font-weight:700;
+    padding-bottom:20px;
+}
+#html5 p,#bootstrap p{
+    line-height: 22px;
+}
+#html5 p span,#bootstrap p span{
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    background: #40d2b1;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 12px;
+    color: #fff;
+}
+
+
+
+/*course部分*/
+#course{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+#course .course{
+    background-color: #fff;
+}
+#course h1{
+    margin-bottom: 40px;
+}
+#course .col-md-3{
+    margin-bottom: 28px;
+
+}
+#course .col-md-3 img{
+    margin:auto;
+}
+#course .col-md-3 a{
+    color: #40d2b1;
+    background-color: #fff;
+    border-color: #40d2b1;
+    padding: 10px 35px;
+    margin: 27px 0;
+    border-radius: 0;
+    transition: 0.5s;
+}
+#course .col-md-3 a:hover{
+    color: white;
+    background-color: #40d2b1;
+}
+
+
+/*移动app部分*/
+#app{
+    padding:50px 0;
+}
+#app h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#app p{
+    line-height: 24px;
+}
+#app  a.btn.btn-info {
+    padding: 9px 20px;
+    margin: 10px 5px 8px 0;
+    transition: all 0.6s;
+    background-color: #83CADF;
+}
+#app  a.btn.btn-info:hover{
+    background-color: #0EAFDF;
+}
+
+/*contact部分*/
+#contact{
+    background-image: url("../images/contact-bg.png");
+    background-size: cover;
+
+    font-weight: bold;
+}
+#contact p{
+    display: block;
+    margin-bottom: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+#contact h2{
+    margin-bottom: 20px;
+    color: #fff;
+}
+#contact input[type="text"] {
+    margin-top: 20px;
+    height: 52px;
+    padding-left: 7px;
+    border-radius: 0;
+}
+#contact textarea.form-control{
+    margin-top:20px;
+    height: auto;
+    border-radius: 0;
+
+}
+#contact input[type="submit"]{
+    margin-top: 15px;
+    height: 42px;
+    background: #3FD1B0;
+    transiton:all 1s;
+    color: white;
+    border-radius: 0;
+}
+#contact input[type="submit"]:hover{
+    background-color: #02C498;
+}
+
+
+/*footer部分*/
+#footer{
+    padding:20px 0;
+    text-align: center;
+}
